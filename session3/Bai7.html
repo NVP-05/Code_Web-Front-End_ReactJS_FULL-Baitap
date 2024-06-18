@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+
+    const mergeObjects = (...objects) => {
+        return objects.reduce((merged, obj) => {
+            for (let key in obj) {
+                merged[key] = obj[key];
+            }
+            return merged;
+        }, {});
+    };
+    const obj1 = { a: 1, b: 2 };
+    const obj2 = { b: 3, c: 4 };
+    const obj3 = { c: 5, d: 6 };
+    const mergedObject = mergeObjects(obj1, obj2, obj3);
+    console.log(mergedObject);
+    
+    </script>
+</body>
+</html>

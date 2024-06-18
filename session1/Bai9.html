@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        let users = [
+            {   id: 1, 
+                name: 'Alice', 
+                hobbies: ['Reading', 'Drawing'] 
+            }, 
+            {   id: 2, 
+                name: 'Bob', 
+                hobbies: ['Gaming', 'Cooking', 'Reading'] 
+            },
+        ];
+
+        let arr = [];
+        users.forEach((item)=>{
+            item.hobbies.forEach((item2)=>{
+                arr.push(item2);
+            })
+        })
+
+        for(let i = 0; i < arr.length; i++){
+            for(let j = i + 1; j < arr.length; j++){
+                if(arr[i] == arr[j]){
+                    arr.splice(j, 1);
+                    j--;
+                }
+            }
+        }
+
+        console.log(arr);
+    </script>
+</body>
+</html>

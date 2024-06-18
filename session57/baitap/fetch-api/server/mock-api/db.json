@@ -1,0 +1,45 @@
+{
+    "products": [
+      {
+        "id": 1,
+        "product_name": "iphone 7",
+        "image": "https://cdn.tgdd.vn/Products/Images/42/200533/iphone-11-pro-max-green-600x600.jpg",
+        "price": 100,
+        "quantity": 10,
+        "created_at": "2024-06-10T00:00:00Z"
+      },
+      {
+        "id": 2,
+        "product_name": "iphone 8",
+        "image": "https://cdn.tgdd.vn/Products/Images/42/200533/iphone-11-pro-max-green-600x600.jpg",
+        "price": 150,
+        "quantity": 5,
+        "created_at": "2024-06-10T00:00:00Z"
+      },
+      {
+        "id": 3,
+        "product_name": "iphone x",
+        "image": "https://cdn.tgdd.vn/Products/Images/42/200533/iphone-11-pro-max-green-600x600.jpg",
+        "price": 200,
+        "quantity": 15,
+        "created_at": "2024-06-10T00:00:00Z"
+      },
+      {
+        "id": 4,
+        "product_name": "iphone 11",
+        "image": "https://cdn.tgdd.vn/Products/Images/42/200533/iphone-11-pro-max-green-600x600.jpg",
+        "price": 250,
+        "quantity": 25,
+        "created_at": "2024-06-10T00:00:00Z"
+      },
+      {
+        "id": 5,
+        "product_name": "iphone 12",
+        "image": "https://cdn.tgdd.vn/Products/Images/42/200533/iphone-11-pro-max-green-600x600.jpg",
+        "price": 300,
+        "quantity": 35,
+        "created_at": "2024-06-10T00:00:00Z"
+      }
+    ]
+  }
+  

@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+
+        let numbers = [1, 2, 3, 11, 22, 33, 44, 55, 77, 66, 39, 87];
+        console.log(numbers);
+        let number = +prompt("Nhập 1 số nguyên dương bất kì.")
+        max = 0;
+
+        let result = numbers.forEach((item, index, arr)=>{
+            if(item > max && item < number){
+                max = item
+            }
+        })
+
+        console.log(max);
+        
+
+    </script>
+</body>
+</html>

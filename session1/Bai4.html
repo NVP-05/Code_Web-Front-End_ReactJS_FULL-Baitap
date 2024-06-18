@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        let a = +prompt("Nhập id sách muốn tìm.");
+
+        let books = [
+            {
+                id: 1,
+                name: "Toán",
+            },
+            {
+                id: 2,
+                name: "Lí",
+            },
+            {
+                id: 3,
+                name: "Hóa",
+            },
+            {
+                id: 4,
+                name: "Văn",
+            },
+            {
+                id: 5,
+                name: "Anh",
+            },
+            {
+                id: 6,
+                name: "Sử",
+            },
+            {
+                id: 7,
+                name: "Sinh",
+            },
+        ];
+
+        let result = books.find((item, index, arr)=>{
+            return item.id === a
+        })
+        if(result == undefined){
+            console.log("Không có kết quả tìm kiếm");
+        }else{
+            console.log(result);
+        }
+
+    </script>
+</body>
+</html>

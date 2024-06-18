@@ -1,0 +1,49 @@
+{
+  "students": [
+    {
+      "id": 2,
+      "student_name": "Minh",
+      "email": "minh@gmail.com",
+      "address": "Thanh Hóa",
+      "phone": "123456789",
+      "status": true,
+      "created_at": "2024-06-10T00:00:00Z"
+    },
+    {
+      "student_name": "Lương mới",
+      "email": "luongmoi@gmail.com",
+      "address": "Phú Thọ",
+      "phone": "1234567890",
+      "status": true,
+      "created_at": "2024-06-11T04:34:02.122Z",
+      "id": 3
+    },
+    {
+      "id": 4,
+      "student_name": "Bình",
+      "email": "bình@gmail.com",
+      "address": "Thái Bình",
+      "phone": "123456789",
+      "status": true,
+      "created_at": "2024-06-10T00:00:00Z"
+    },
+    {
+      "id": 5,
+      "student_name": "Sơn",
+      "email": "Sơn@gmail.com",
+      "address": "Thanh Hóa",
+      "phone": "123456789",
+      "status": true,
+      "created_at": "2024-06-10T00:00:00Z"
+    },
+    {
+      "student_name": "Phúc",
+      "email": "Phúc1@gmail.com",
+      "address": "Thanh Hóa",
+      "phone": "1234567",
+      "status": true,
+      "created_at": "2024-06-11T04:31:21.089Z",
+      "id": 6
+    }
+  ]
+}

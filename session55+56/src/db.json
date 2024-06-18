@@ -1,0 +1,19 @@
+[
+    {
+    "id": 1,
+    "title": "Cách học ReactJS hiệu quả",
+    "content": "Đọc tài liệu và làm nhiều bài tập",
+    "thumbnail":"https://tse4.mm.bing.net/th?id=OIP.NUnwf_CNKOTvatXibyTmIwHaEG&pid=Api&P=0&h=180",
+    "created_at":"25/03/2024",
+    "created_by": "Ngọ Văn Quý",
+    "user_id": 1,
+    "comments":[
+        {
+            "id": 1,
+            "content": "Bài viết rất ý nghĩa",
+            "created_at": "22/03/2024",
+            "user_id": 2
+        }  
+    ]
+    }
+]

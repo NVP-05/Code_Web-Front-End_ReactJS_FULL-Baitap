@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.Header{
+    width: 1535px;
+    height: 60px;
+    background-color: rgb(126, 132, 132);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Main2{
+    display: flex;
+}
+
+.Main2 .Menu{
+    width: 100px;
+    height: 669px;
+    background-color: rgb(24, 24, 102);
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.Main3 .Main{
+    width: 1435px;
+    height: 609px;
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Main3 .Footer{
+    width: 1435px;
+    height: 60px;
+    background-color: rgb(126, 132, 132);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

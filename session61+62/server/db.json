@@ -1,0 +1,29 @@
+{
+  "jobs": [
+    {
+      "id": 1,
+      "name": "Quét nhà",
+      "status": true
+    },
+    {
+      "id": 2,
+      "name": "Rửa bát",
+      "status": true
+    },
+    {
+      "id": 3,
+      "name": "Lau bàn ghế",
+      "status": true
+    },
+    {       
+      "id": 6835416485,
+      "name": "Tắm rửa",
+      "status": true
+    },
+    {
+      "id": 8804955580,
+      "name": "Xấu tính quá thầy ơi",
+      "status": true
+    }
+  ]
+}

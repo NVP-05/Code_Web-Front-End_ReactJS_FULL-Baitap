@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+
+        let phoneBooks = [
+            {
+                name: "Phúc",
+                numbers: "0962854080",
+                email: "Phuc@gmail.com"
+            },
+            {
+                name: "Minh",
+                numbers: "0355192876",
+                email: "Minh@gmail.com"
+            },
+        ]
+
+        function addContact(){
+            let name = prompt("Vui lòng nhập tên.");
+            let numbers = prompt("Vui lòng nhập sđt.");
+            let email = prompt("Vui lòng nhập email.");
+
+            let newPhoneBooks = {
+                name: name,
+                numbers: numbers,
+                email: email,
+            }
+            phoneBooks.push(newPhoneBooks);
+        }
+        addContact()
+        function displayContact(){
+            console.log(phoneBooks);
+        }
+        displayContact();
+
+    </script>
+</body>
+</html>

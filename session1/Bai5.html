@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+
+        let users = [
+            {
+                userName: "Phúc",
+                password: "123456"
+            },
+            {
+                userName: "Minh",
+                password: "1234 56"
+            },
+            {
+                userName: "Nam",
+                password: "12 3456"
+            },
+            {
+                userName: "Lương",
+                password: "123456"
+            }, 
+        ]
+
+
+        let flag = 0;
+        let result = users.filter((item, index, arr)=>{
+            if(item.password.includes(" ")){
+                console.log(index);
+                flag = 1;
+            }
+        })
+
+        if(flag == 0){
+            console.log("Mọi tài khoản đều hợp lệ");
+        }
+    </script>
+</body>
+</html>

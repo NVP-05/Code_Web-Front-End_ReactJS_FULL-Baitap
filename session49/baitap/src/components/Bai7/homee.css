@@ -1,0 +1,7 @@
+a{
+    gap: 20px;
+}
+
+.active{
+    background-color: red;
+}

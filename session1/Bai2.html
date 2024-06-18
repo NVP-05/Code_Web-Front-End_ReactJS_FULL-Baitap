@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        let students = [
+   {id:1, number: 25},
+   {id:1, number: 30},
+   {id:1, number: 50}
+]
+
+        let result = students.map((item, index, arr)=>{
+            if(students[index].number < 30){
+                students[index].number += 10;
+            }
+            if(students[index].number > 40){
+                students[index].number -= 10;
+            }
+            return item
+        })
+
+        console.log(result);
+    </script>
+</body>
+</html>
