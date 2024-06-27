@@ -1,0 +1,19 @@
+{
+    "jobs": [
+        {
+            "id": 1,
+            "name": "Quét nhà",
+            "status": false
+        },
+        {
+            "id": 2,
+            "name": "Giặt quần áo",
+            "status": true
+        },
+        {
+            "id": 2,
+            "name": "Đánh AOE",
+            "status": true
+        }
+    ]
+}
