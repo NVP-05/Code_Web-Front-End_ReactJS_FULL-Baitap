@@ -1,9 +1,15 @@
-import React from "react";
-import { useSelector } from "react-redux";
+import React, { useEffect } from "react";
+import { useDispatch, useSelector } from "react-redux";
+import { fetchProducts } from "../store/reducers/productReducer";
 
 export default function ProductList() {
-  const products: any = useSelector((state) => state);
-  console.log(products);
+  const products: any = useSelector((state: any) => state.product);
+
+  const dispatch = useDispatch();
+
+  useEffect(() => {
+    dispatch(fetchProducts());
+  }, [dispatch]);
 
   return (
     <div className="w-1/2 p-4">

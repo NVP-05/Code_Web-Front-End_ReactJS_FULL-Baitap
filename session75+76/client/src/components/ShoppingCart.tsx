@@ -1,18 +1,25 @@
-import React from "react";
-import { useSelector } from "react-redux";
+import React, { useEffect } from "react";
+import { useDispatch, useSelector } from "react-redux";
+import { fetchCart } from "../store/reducers/cartReducer";
 
 export default function ShoppingCart() {
-  const cartItems: any = useSelector((state) => state);
+  const cartItems: any = useSelector((state: any) => state.cart);
+
+  const dispatch = useDispatch();
+
+  useEffect(() => {
+    dispatch(fetchCart());
+  }, [dispatch]);
 
   const subtotal = cartItems.reduce(
-    (sum, item) => sum + item.price * item.quantity,
+    (sum: any, item: any) => sum + item.price * item.quantity,
     0
   );
 
   return (
     <div className="w-1/2 p-4">
       <h2 className="text-xl font-bold mb-4">Shopping cart</h2>
-      {cartItems.map((item) => (
+      {cartItems.map((item: any) => (
         <div key={item.id} className="border p-4 mb-4 flex justify-between">
           <div className="flex">
             <img
